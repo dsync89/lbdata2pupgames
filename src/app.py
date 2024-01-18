@@ -5,7 +5,7 @@ import re
 
 # Specify the path to your JSON file
 JSON_FILE_PATH = 'MAME_Games_Export_Full.pupgames'
-XML_FILE_PATH = 'snes.xml'
+XML_FILE_PATH = 'tests\\Arcade.xml'
 
 def convert_xml_to_json(xml_string):
     # Parse XML to OrderedDict
